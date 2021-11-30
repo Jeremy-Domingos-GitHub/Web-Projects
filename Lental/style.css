@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsla(180, 100%, 97%, 0.836);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px;
+}
+
+.logo{
+    flex: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.links{
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 10px;
+}
+
+.links > a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 10px;
+
+    border-radius: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links > a:hover{
+    color:teal;
+    transition: ease-in-out 0.7s;
+    background-color: hsla(180, 100%, 97%, 0.308);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    flex: 3;
+    margin: 150px;
+    padding: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.section > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: black;
+}
+
+.section > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+
+.section > a{
+    text-decoration: none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section > a:hover{
+    color: black;
+    transition: ease-in-out 0.7s;
+    background-color: hsla(180, 66%, 64%, 0.308);
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    flex: 1;
+    margin: 200px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right{
+    flex: 3;
+    margin: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.cards{
+    color: blac;
+}

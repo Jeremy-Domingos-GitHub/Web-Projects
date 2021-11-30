@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: azure;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black solid 1px ;
+}
+
+
+.content{
+    display: flex;
+}
+
+.navbar{
+    flex: 1;
+    display: flex;
+}
+.logo{
+    flex-direction: column;
+}
+.main-article{
+    flex: 2;
+}
+
+.container{
+    height: 100vh;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
