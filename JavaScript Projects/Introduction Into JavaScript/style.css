@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(204, 204, 204), rgb(206, 206, 206));
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;  
+}
+
+li, a {
+    text-decoration: none;
+    color: rgba(41, 41, 41, 0.705);
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    transition: ease-out 0.9s;
+}
+
+a:hover{
+    color: rgba(41, 41, 41, 0.90); 
+    bottom: 5px; 
+    font-size: 1.4rem;
+    transition: ease-in 0.9s;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.content > h1 {
+    padding: 50px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(39, 37, 37, 0.692);
+    font-size: 75px;
+}
+
+.D {
+    font-size: 90px;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+
+.U {
+    font-size: 90px;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+
+.S {
+    font-size: 90px;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+
+.T {
+    font-size: 90px;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+
+.D:hover {
+    font-size: 90px;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+    padding-top: 0.5px;
+}
+
+.U:hover {
+    font-size: 90px;
+    transition: ease-in 0.9s;
+    cursor: pointer;
+    padding-top: 0.5px;
+}
+
+.S:hover {
+    font-size: 90px;
+    transition: ease-in 0.9s;
+    cursor: pointer;
+    padding-top: 0.5px;
+}
+
+.T:hover {
+    font-size: 90px;
+    transition: ease-in 0.9s;
+    cursor: pointer;
+    padding-top: 0.5px;
+}
