@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300&display=swap');
+*{
+    margin: 10px;
+    padding: 0; 
+}
+
+body{
+    background-color: rgba(255, 230, 0, 0.938);
+}
+
+.container {
+   display: flex;
+   flex-direction: column; 
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.logo{  
+    font-size: 1fr;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-links{
+    margin-left: 40%;
+}
+
+
+.nav-links > a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+    border: black solid 1px;
+    border-radius: 25px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-btn{
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-btn > a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.catch-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.heading-para > h1{
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 95px;   
+    margin: 5px;
+}
+
+.heading-para > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.heading-para > a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+.sec-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.link-list{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+.sec-content-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.gaming > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.gaming {
+    border: black solid 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    border-radius:25px ;
+    font-family: 'Poppins', sans-serif;
+}
+.gaming > p {
+    padding-bottom: 10px;
+    padding-top:10px ;
+}
+
+.gaming > a {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.Programming > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.Programming {
+    border: black solid 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    border-radius:25px ;
+    font-family: 'Poppins', sans-serif;
+}
+.Programming > p {
+    padding-bottom: 10px;
+    padding-top:10px ;
+}
+
+.Programming > a {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.IR > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.IR{
+    border: black solid 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    border-radius:25px ;
+    font-family: 'Poppins', sans-serif;
+}
+.IR > p {
+    padding-bottom: 10px;
+    padding-top:10px ;
+}
+
+.IR > a {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+li > a{
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    
+}
+.footer > p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid rgba(0, 0, 0, 0.774) 1px;
+    padding-top: 5px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
